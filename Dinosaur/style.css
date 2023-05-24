@@ -1,0 +1,67 @@
+body {
+    background-color: skyblue;
+}
+
+#header {
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    font-family:'Courier New', Courier, monospace;
+    color: cadetblue;
+    font-size: 10vh;
+}
+
+#start_btn {
+    position: absolute;
+    bottom: 30vh;
+    height: 10vh;
+    width: 40vw;
+    left: 30vw;
+    font-size: 6vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: burlywood;
+    border: none;
+    border-radius: 5vw;
+}
+
+#game_page {
+    display: none;
+}
+
+#grass {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 70%;
+    background-color: lightgreen;
+}
+
+#pepe {
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    left: 0;
+    bottom: 30vh;
+}
+
+#fail_page {
+    display: none;
+    text-align: center;
+}
+
+#gg {
+    font-size: 30vh;
+    color: red;
+}
+
+#time {
+    font-size: 10vh;
+    color: white;
+}
+
+#time_num {
+    font-size: 10vh;
+    color: beige;
+}

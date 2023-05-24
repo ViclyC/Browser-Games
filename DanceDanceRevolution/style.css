@@ -1,0 +1,64 @@
+body {
+    background-image: url('background_0.png');
+    background-size: 100vw 100vh;
+}
+
+#start {
+    width: 20vw;
+    height: 10vh;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3vh;
+    position: absolute;
+    left: 40vw;
+    bottom: 10vh;
+}
+
+img {
+    height: 10vw;
+}
+
+.white {
+    position: absolute;
+    bottom: 15vh;
+}
+
+.col0 {
+    left: 12vw;
+}
+
+.col1 {
+    left: 34vw;
+}
+
+.col2 {
+    left: 56vw;
+}
+
+.col3 {
+    left: 78vw;
+}
+
+#game_page {
+    display: none;
+}
+
+#score_text {
+    color: white;
+}
+
+h1 {
+    font-size: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#final_score {
+    display: none;
+}
+
+#final_score_text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

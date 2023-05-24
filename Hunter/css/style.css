@@ -1,0 +1,93 @@
+body {
+
+    height: 80%;
+    
+}
+html{
+    background-image: url("../images/pond.png");
+    background-size: 100vw 100vh;
+    height: 100%;
+}
+
+
+
+
+
+h2 {
+    color: white;
+    position: absolute;
+    left: 40vw;
+    top: 50vh;
+    font-size: 6vh;
+}
+
+#hp, #miss {
+    text-align: center;
+    color: red;
+    font-size: 6vh;
+}
+
+#intro {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#cheer {
+    position: absolute;
+    left: 0vw;
+    top: 30vh;
+
+
+
+}
+
+
+    
+
+
+
+#end, #start {
+    background-color: lightgreen;
+
+    border: none;
+
+    color: darkolivegreen;
+
+    position: fixed;
+    left: 35vw;
+    
+    bottom: 1vh;
+
+    width: 30vw;
+
+    height: 11vh;
+
+    font-weight: bold;
+
+    font-size: 3vh;
+
+    font-family: verdana;
+
+    cursor: pointer;
+
+}
+
+#score {
+
+    
+    font-family: cursive;
+
+    font-size: 6vh;
+
+    text-align: center;
+
+    color: brown;
+
+
+
+
+
+}
